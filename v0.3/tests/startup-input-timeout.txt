@@ -1,0 +1,4 @@
+Observed during the final APK cold start before a focused game window existed:
+10-18 22:42:46.102 629 8954 I am_anr: [0,8901,org.ascensiongame.chapterone,849886790,Input dispatching timed out (Application does not have a focused window).]
+
+This Android 15 emulator has no KVM and uses software ANGLE/SwiftShader. The test sent input while cold startup was still running. The dialog persisted into the resumed QA session. A clean force-stop/start produced process 10332, reached the complete interface and allowed subsequent native gameplay checks. This is an observed startup timeout, not a claimed flawless launch history. No app crash or GDScript exception was identified in the captured application logs. Physical-phone startup/performance remains untested.

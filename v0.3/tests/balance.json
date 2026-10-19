@@ -1,0 +1,844 @@
+{
+  "engine": "4.6.3-stable (official)",
+  "initial_taps": 15,
+  "profiles": {
+    "economy": {
+      "checkpoints_minutes": {
+        "120": {
+          "coins_earned": 81713882.2589925,
+          "decisions": {
+            "city_renewal": "factories",
+            "election": "establishment",
+            "first_contract": "profit",
+            "guild_charter": "independent"
+          },
+          "deliveries": 0,
+          "generators": {
+            "campaign_office": 26,
+            "civic_hall": 24,
+            "rumour_network": 46,
+            "street_stall": 56,
+            "trading_post": 39,
+            "workshop": 48
+          },
+          "income": {
+            "coins": {
+              "e": 4,
+              "m": 1.589578248825
+            },
+            "influence": {
+              "e": 1,
+              "m": 6.27293739909375
+            },
+            "reputation": {
+              "e": 2,
+              "m": 1.836937872
+            }
+          },
+          "influence_earned": 294565.27501616,
+          "negotiations": 0,
+          "rank": "Civic Leader",
+          "reputation_earned": 909478.383066002,
+          "trust": {
+            "commons": 0,
+            "council": 0,
+            "merchants": 0
+          }
+        },
+        "1440": {
+          "coins_earned": 1745960972.62744,
+          "decisions": {
+            "city_renewal": "factories",
+            "election": "establishment",
+            "first_contract": "profit",
+            "guild_charter": "independent"
+          },
+          "deliveries": 0,
+          "generators": {
+            "campaign_office": 42,
+            "civic_hall": 39,
+            "rumour_network": 67,
+            "street_stall": 78,
+            "trading_post": 57,
+            "workshop": 68
+          },
+          "income": {
+            "coins": {
+              "e": 4,
+              "m": 2.3078369167875
+            },
+            "influence": {
+              "e": 2,
+              "m": 1.01839877045156
+            },
+            "reputation": {
+              "e": 2,
+              "m": 2.791173924
+            }
+          },
+          "influence_earned": 7467616.96530162,
+          "negotiations": 0,
+          "rank": "Civic Leader",
+          "reputation_earned": 20808685.2239643,
+          "trust": {
+            "commons": 0,
+            "council": 0,
+            "merchants": 0
+          }
+        },
+        "20": {
+          "coins_earned": 884003.115885,
+          "decisions": {
+            "city_renewal": "factories",
+            "election": "establishment",
+            "first_contract": "profit",
+            "guild_charter": "independent"
+          },
+          "deliveries": 0,
+          "generators": {
+            "campaign_office": 1,
+            "civic_hall": 2,
+            "rumour_network": 18,
+            "street_stall": 25,
+            "trading_post": 15,
+            "workshop": 21
+          },
+          "income": {
+            "coins": {
+              "e": 3,
+              "m": 5.4693316125
+            },
+            "influence": {
+              "e": 0,
+              "m": 3.9928202015625
+            },
+            "reputation": {
+              "e": 1,
+              "m": 4.3276464
+            }
+          },
+          "influence_earned": 82.0731850125,
+          "negotiations": 0,
+          "rank": "Civic Advocate",
+          "reputation_earned": 5572.513584,
+          "trust": {
+            "commons": 0,
+            "council": 0,
+            "merchants": 0
+          }
+        },
+        "45": {
+          "coins_earned": 16063852.3062956,
+          "decisions": {
+            "city_renewal": "factories",
+            "election": "establishment",
+            "first_contract": "profit",
+            "guild_charter": "independent"
+          },
+          "deliveries": 0,
+          "generators": {
+            "campaign_office": 17,
+            "civic_hall": 16,
+            "rumour_network": 35,
+            "street_stall": 44,
+            "trading_post": 30,
+            "workshop": 38
+          },
+          "income": {
+            "coins": {
+              "e": 4,
+              "m": 1.2299405603625
+            },
+            "influence": {
+              "e": 1,
+              "m": 4.16924417404688
+            },
+            "reputation": {
+              "e": 2,
+              "m": 1.330842744
+            }
+          },
+          "influence_earned": 45468.6326304633,
+          "negotiations": 0,
+          "rank": "Civic Leader",
+          "reputation_earned": 163208.1231,
+          "trust": {
+            "commons": 0,
+            "council": 0,
+            "merchants": 0
+          }
+        },
+        "5": {
+          "coins_earned": 698.04,
+          "decisions": {
+
+          },
+          "deliveries": 0,
+          "generators": {
+            "street_stall": 8,
+            "workshop": 1
+          },
+          "income": {
+            "coins": {
+              "e": 0,
+              "m": 8.032
+            },
+            "influence": {
+              "e": 0,
+              "m": 0.0
+            },
+            "reputation": {
+              "e": 0,
+              "m": 0.0
+            }
+          },
+          "influence_earned": 0.0,
+          "negotiations": 0,
+          "rank": "Street Vendor",
+          "reputation_earned": 0.0,
+          "trust": {
+            "commons": 0,
+            "council": 0,
+            "merchants": 0
+          }
+        }
+      },
+      "milestones_seconds": {
+        "Civic Advocate": 1125,
+        "Civic Leader": 1215,
+        "Guildmaster": 735,
+        "Independent Trader": 435,
+        "Street Scavenger": 60,
+        "Street Vendor": 255
+      }
+    },
+    "economy_engaged": {
+      "checkpoints_minutes": {
+        "120": {
+          "coins_earned": 106901479.756145,
+          "decisions": {
+            "city_renewal": "factories",
+            "election": "establishment",
+            "first_contract": "profit",
+            "guild_charter": "independent"
+          },
+          "deliveries": 107,
+          "generators": {
+            "campaign_office": 27,
+            "civic_hall": 26,
+            "rumour_network": 47,
+            "street_stall": 57,
+            "trading_post": 41,
+            "workshop": 50
+          },
+          "income": {
+            "coins": {
+              "e": 4,
+              "m": 1.91735366482406
+            },
+            "influence": {
+              "e": 1,
+              "m": 8.4389785753711
+            },
+            "reputation": {
+              "e": 2,
+              "m": 1.914210144
+            }
+          },
+          "influence_earned": 405011.824151212,
+          "negotiations": 76,
+          "rank": "Civic Leader",
+          "reputation_earned": 970322.024712371,
+          "trust": {
+            "commons": 0,
+            "council": 5,
+            "merchants": 5
+          }
+        },
+        "1440": {
+          "coins_earned": 2165953139.49815,
+          "decisions": {
+            "city_renewal": "factories",
+            "election": "establishment",
+            "first_contract": "profit",
+            "guild_charter": "independent"
+          },
+          "deliveries": 1427,
+          "generators": {
+            "campaign_office": 43,
+            "civic_hall": 40,
+            "rumour_network": 67,
+            "street_stall": 79,
+            "trading_post": 58,
+            "workshop": 69
+          },
+          "income": {
+            "coins": {
+              "e": 4,
+              "m": 2.69897409747
+            },
+            "influence": {
+              "e": 2,
+              "m": 1.30527269664258
+            },
+            "reputation": {
+              "e": 2,
+              "m": 2.819672856
+            }
+          },
+          "influence_earned": 9728325.61473057,
+          "negotiations": 956,
+          "rank": "Civic Leader",
+          "reputation_earned": 21426307.7368077,
+          "trust": {
+            "commons": 0,
+            "council": 5,
+            "merchants": 5
+          }
+        },
+        "20": {
+          "coins_earned": 1675459.31327794,
+          "decisions": {
+            "city_renewal": "factories",
+            "election": "establishment",
+            "first_contract": "profit",
+            "guild_charter": "independent"
+          },
+          "deliveries": 8,
+          "generators": {
+            "campaign_office": 4,
+            "civic_hall": 5,
+            "rumour_network": 18,
+            "street_stall": 27,
+            "trading_post": 16,
+            "workshop": 23
+          },
+          "income": {
+            "coins": {
+              "e": 3,
+              "m": 7.76040086863125
+            },
+            "influence": {
+              "e": 1,
+              "m": 1.50339248049375
+            },
+            "reputation": {
+              "e": 1,
+              "m": 5.85471348
+            }
+          },
+          "influence_earned": 852.442262400966,
+          "negotiations": 9,
+          "rank": "Civic Leader",
+          "reputation_earned": 8125.65656645991,
+          "trust": {
+            "commons": 0,
+            "council": 4,
+            "merchants": 5
+          }
+        },
+        "45": {
+          "coins_earned": 22427202.7827384,
+          "decisions": {
+            "city_renewal": "factories",
+            "election": "establishment",
+            "first_contract": "profit",
+            "guild_charter": "independent"
+          },
+          "deliveries": 32,
+          "generators": {
+            "campaign_office": 19,
+            "civic_hall": 18,
+            "rumour_network": 37,
+            "street_stall": 46,
+            "trading_post": 32,
+            "workshop": 40
+          },
+          "income": {
+            "coins": {
+              "e": 4,
+              "m": 1.50435493074562
+            },
+            "influence": {
+              "e": 1,
+              "m": 5.8570398891211
+            },
+            "reputation": {
+              "e": 2,
+              "m": 1.437570288
+            }
+          },
+          "influence_earned": 68701.0228605895,
+          "negotiations": 26,
+          "rank": "Civic Leader",
+          "reputation_earned": 184129.081972863,
+          "trust": {
+            "commons": 0,
+            "council": 5,
+            "merchants": 5
+          }
+        },
+        "5": {
+          "coins_earned": 921.0976,
+          "decisions": {
+
+          },
+          "deliveries": 1,
+          "generators": {
+            "street_stall": 8,
+            "workshop": 1
+          },
+          "income": {
+            "coins": {
+              "e": 0,
+              "m": 8.27296
+            },
+            "influence": {
+              "e": 0,
+              "m": 0.0
+            },
+            "reputation": {
+              "e": 0,
+              "m": 0.0
+            }
+          },
+          "influence_earned": 0.0,
+          "negotiations": 1,
+          "rank": "Street Vendor",
+          "reputation_earned": 4.0,
+          "trust": {
+            "commons": 0,
+            "council": 0,
+            "merchants": 1
+          }
+        }
+      },
+      "milestones_seconds": {
+        "Civic Advocate": 975,
+        "Civic Leader": 1140,
+        "Guildmaster": 645,
+        "Independent Trader": 405,
+        "Street Scavenger": 60,
+        "Street Vendor": 240
+      }
+    },
+    "influence": {
+      "checkpoints_minutes": {
+        "120": {
+          "coins_earned": 5646392.97422999,
+          "decisions": {
+            "city_renewal": "housing",
+            "election": "grassroots",
+            "first_contract": "patrons",
+            "guild_charter": "coalition"
+          },
+          "deliveries": 0,
+          "generators": {
+            "campaign_office": 13,
+            "civic_hall": 12,
+            "rumour_network": 32,
+            "street_stall": 25,
+            "trading_post": 13,
+            "workshop": 21
+          },
+          "income": {
+            "coins": {
+              "e": 3,
+              "m": 2.29760685
+            },
+            "influence": {
+              "e": 1,
+              "m": 6.1499386265625
+            },
+            "reputation": {
+              "e": 2,
+              "m": 4.4167096512
+            }
+          },
+          "influence_earned": 146122.94525864,
+          "negotiations": 0,
+          "rank": "Civic Leader",
+          "reputation_earned": 1551069.42945767,
+          "trust": {
+            "commons": 0,
+            "council": 0,
+            "merchants": 0
+          }
+        },
+        "1440": {
+          "coins_earned": 412487763.315406,
+          "decisions": {
+            "city_renewal": "housing",
+            "election": "grassroots",
+            "first_contract": "patrons",
+            "guild_charter": "coalition"
+          },
+          "deliveries": 0,
+          "generators": {
+            "campaign_office": 35,
+            "civic_hall": 33,
+            "rumour_network": 60,
+            "street_stall": 55,
+            "trading_post": 37,
+            "workshop": 48
+          },
+          "income": {
+            "coins": {
+              "e": 3,
+              "m": 6.116989725
+            },
+            "influence": {
+              "e": 2,
+              "m": 1.6856239640625
+            },
+            "reputation": {
+              "e": 2,
+              "m": 9.440605944
+            }
+          },
+          "influence_earned": 11157300.9822764,
+          "negotiations": 0,
+          "rank": "Civic Leader",
+          "reputation_earned": 66068566.4902753,
+          "trust": {
+            "commons": 0,
+            "council": 0,
+            "merchants": 0
+          }
+        },
+        "20": {
+          "coins_earned": 89850.984,
+          "decisions": {
+            "city_renewal": "housing",
+            "first_contract": "patrons",
+            "guild_charter": "coalition"
+          },
+          "deliveries": 0,
+          "generators": {
+            "campaign_office": 1,
+            "civic_hall": 0,
+            "rumour_network": 7,
+            "street_stall": 13,
+            "trading_post": 5,
+            "workshop": 3
+          },
+          "income": {
+            "coins": {
+              "e": 2,
+              "m": 3.0552984
+            },
+            "influence": {
+              "e": -2,
+              "m": 9.009
+            },
+            "reputation": {
+              "e": 1,
+              "m": 1.2513732
+            }
+          },
+          "influence_earned": 16.0875,
+          "negotiations": 0,
+          "rank": "Civic Advocate",
+          "reputation_earned": 1750.59225,
+          "trust": {
+            "commons": 0,
+            "council": 0,
+            "merchants": 0
+          }
+        },
+        "45": {
+          "coins_earned": 568711.721355,
+          "decisions": {
+            "city_renewal": "housing",
+            "election": "grassroots",
+            "first_contract": "patrons",
+            "guild_charter": "coalition"
+          },
+          "deliveries": 0,
+          "generators": {
+            "campaign_office": 1,
+            "civic_hall": 1,
+            "rumour_network": 20,
+            "street_stall": 13,
+            "trading_post": 5,
+            "workshop": 3
+          },
+          "income": {
+            "coins": {
+              "e": 2,
+              "m": 4.39199145
+            },
+            "influence": {
+              "e": 0,
+              "m": 2.67924628125
+            },
+            "reputation": {
+              "e": 2,
+              "m": 2.0242019952
+            }
+          },
+          "influence_earned": 881.62074309375,
+          "negotiations": 0,
+          "rank": "Civic Leader",
+          "reputation_earned": 165291.64683768,
+          "trust": {
+            "commons": 0,
+            "council": 0,
+            "merchants": 0
+          }
+        },
+        "5": {
+          "coins_earned": 698.04,
+          "decisions": {
+
+          },
+          "deliveries": 0,
+          "generators": {
+            "street_stall": 8,
+            "workshop": 1
+          },
+          "income": {
+            "coins": {
+              "e": 0,
+              "m": 8.032
+            },
+            "influence": {
+              "e": 0,
+              "m": 0.0
+            },
+            "reputation": {
+              "e": 0,
+              "m": 0.0
+            }
+          },
+          "influence_earned": 0.0,
+          "negotiations": 0,
+          "rank": "Street Vendor",
+          "reputation_earned": 0.0,
+          "trust": {
+            "commons": 0,
+            "council": 0,
+            "merchants": 0
+          }
+        }
+      },
+      "milestones_seconds": {
+        "Civic Advocate": 1200,
+        "Civic Leader": 2280,
+        "Guildmaster": 765,
+        "Independent Trader": 435,
+        "Street Scavenger": 60,
+        "Street Vendor": 255
+      }
+    },
+    "influence_engaged": {
+      "checkpoints_minutes": {
+        "120": {
+          "coins_earned": 7309306.0523475,
+          "decisions": {
+            "city_renewal": "housing",
+            "election": "grassroots",
+            "first_contract": "patrons",
+            "guild_charter": "coalition"
+          },
+          "deliveries": 53,
+          "generators": {
+            "campaign_office": 14,
+            "civic_hall": 13,
+            "rumour_network": 34,
+            "street_stall": 25,
+            "trading_post": 13,
+            "workshop": 21
+          },
+          "income": {
+            "coins": {
+              "e": 3,
+              "m": 2.29760685
+            },
+            "influence": {
+              "e": 1,
+              "m": 8.32025139257813
+            },
+            "reputation": {
+              "e": 2,
+              "m": 5.898992022
+            }
+          },
+          "influence_earned": 201891.87542046,
+          "negotiations": 75,
+          "rank": "Civic Leader",
+          "reputation_earned": 1992269.51326559,
+          "trust": {
+            "commons": 5,
+            "council": 5,
+            "merchants": 0
+          }
+        },
+        "1440": {
+          "coins_earned": 453892710.819862,
+          "decisions": {
+            "city_renewal": "housing",
+            "election": "grassroots",
+            "first_contract": "patrons",
+            "guild_charter": "coalition"
+          },
+          "deliveries": 1043,
+          "generators": {
+            "campaign_office": 36,
+            "civic_hall": 33,
+            "rumour_network": 62,
+            "street_stall": 55,
+            "trading_post": 37,
+            "workshop": 48
+          },
+          "income": {
+            "coins": {
+              "e": 3,
+              "m": 6.116989725
+            },
+            "influence": {
+              "e": 2,
+              "m": 2.11637855214844
+            },
+            "reputation": {
+              "e": 3,
+              "m": 1.2063304638
+            }
+          },
+          "influence_earned": 14536728.0607615,
+          "negotiations": 955,
+          "rank": "Civic Leader",
+          "reputation_earned": 85720392.7703021,
+          "trust": {
+            "commons": 5,
+            "council": 5,
+            "merchants": 0
+          }
+        },
+        "20": {
+          "coins_earned": 77952.6756,
+          "decisions": {
+            "first_contract": "patrons",
+            "guild_charter": "coalition"
+          },
+          "deliveries": 3,
+          "generators": {
+            "campaign_office": 1,
+            "civic_hall": 0,
+            "rumour_network": 7,
+            "street_stall": 13,
+            "trading_post": 5,
+            "workshop": 3
+          },
+          "income": {
+            "coins": {
+              "e": 2,
+              "m": 1.6692984
+            },
+            "influence": {
+              "e": -2,
+              "m": 8.25825
+            },
+            "reputation": {
+              "e": 0,
+              "m": 9.776353125
+            }
+          },
+          "influence_earned": 21.51755625,
+          "negotiations": 9,
+          "rank": "Civic Advocate",
+          "reputation_earned": 2271.289271875,
+          "trust": {
+            "commons": 5,
+            "council": 2,
+            "merchants": 0
+          }
+        },
+        "45": {
+          "coins_earned": 478489.447619999,
+          "decisions": {
+            "city_renewal": "housing",
+            "election": "grassroots",
+            "first_contract": "patrons",
+            "guild_charter": "coalition"
+          },
+          "deliveries": 3,
+          "generators": {
+            "campaign_office": 1,
+            "civic_hall": 1,
+            "rumour_network": 20,
+            "street_stall": 13,
+            "trading_post": 5,
+            "workshop": 3
+          },
+          "income": {
+            "coins": {
+              "e": 2,
+              "m": 3.51359316
+            },
+            "influence": {
+              "e": 0,
+              "m": 2.67924628125
+            },
+            "reputation": {
+              "e": 2,
+              "m": 2.0242019952
+            }
+          },
+          "influence_earned": 416.591173125,
+          "negotiations": 25,
+          "rank": "Civic Leader",
+          "reputation_earned": 155132.224039675,
+          "trust": {
+            "commons": 5,
+            "council": 5,
+            "merchants": 0
+          }
+        },
+        "5": {
+          "coins_earned": 801.72,
+          "decisions": {
+
+          },
+          "deliveries": 1,
+          "generators": {
+            "street_stall": 8,
+            "workshop": 1
+          },
+          "income": {
+            "coins": {
+              "e": 0,
+              "m": 8.032
+            },
+            "influence": {
+              "e": 0,
+              "m": 0.0
+            },
+            "reputation": {
+              "e": 0,
+              "m": 0.0
+            }
+          },
+          "influence_earned": 0.0,
+          "negotiations": 1,
+          "rank": "Street Vendor",
+          "reputation_earned": 12.0,
+          "trust": {
+            "commons": 1,
+            "council": 0,
+            "merchants": 0
+          }
+        }
+      },
+      "milestones_seconds": {
+        "Civic Advocate": 1185,
+        "Civic Leader": 2055,
+        "Guildmaster": 765,
+        "Independent Trader": 435,
+        "Street Scavenger": 60,
+        "Street Vendor": 240
+      }
+    }
+  },
+  "step_seconds": 15
+}

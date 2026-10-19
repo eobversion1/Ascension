@@ -1,0 +1,325 @@
+{
+  "version": "0.3.0",
+  "date_utc": "2026-10-19",
+  "android": "15 / API 35 / x86_64",
+  "graphics": "software ANGLE/SwiftShader; no KVM",
+  "automated_checks": {
+    "core": 153,
+    "activities_and_migration": 161,
+    "rendered_ui": 942,
+    "activity_ui": 297
+  },
+  "native_scenarios": [
+    {
+      "scenario": "migration-preserves-native-rank",
+      "fixture_assisted": false,
+      "evidence": "migration-preserves-native-rank.json",
+      "rank": 1,
+      "legacy_points": 0,
+      "deliveries": 0,
+      "talks": 0,
+      "trust": {
+        "commons": 0,
+        "council": 0,
+        "merchants": 0
+      }
+    },
+    {
+      "scenario": "natural-trade-delivered-real-profit",
+      "fixture_assisted": false,
+      "evidence": "natural-trade-delivered-real-profit.json",
+      "rank": 1,
+      "legacy_points": 0,
+      "deliveries": 1,
+      "talks": 0,
+      "trust": {
+        "commons": 0,
+        "council": 0,
+        "merchants": 0
+      }
+    },
+    {
+      "scenario": "native-stall-purchases",
+      "fixture_assisted": false,
+      "evidence": "native-stall-purchases.json",
+      "rank": 1,
+      "legacy_points": 0,
+      "deliveries": 1,
+      "talks": 0,
+      "trust": {
+        "commons": 0,
+        "council": 0,
+        "merchants": 0
+      }
+    },
+    {
+      "scenario": "native-vendor-promotion",
+      "fixture_assisted": false,
+      "evidence": "native-vendor-promotion.json",
+      "rank": 2,
+      "legacy_points": 0,
+      "deliveries": 1,
+      "talks": 0,
+      "trust": {
+        "commons": 0,
+        "council": 0,
+        "merchants": 0
+      }
+    },
+    {
+      "scenario": "final-apk-retains-negotiation-after-restart",
+      "fixture_assisted": false,
+      "evidence": "final-apk-retains-negotiation-after-restart.json",
+      "rank": 2,
+      "legacy_points": 0,
+      "deliveries": 1,
+      "talks": 0,
+      "trust": {
+        "commons": 0,
+        "council": 0,
+        "merchants": 0
+      }
+    },
+    {
+      "scenario": "native-mixed-negotiation-accord",
+      "fixture_assisted": false,
+      "evidence": "native-mixed-negotiation-accord.json",
+      "rank": 2,
+      "legacy_points": 0,
+      "deliveries": 1.0,
+      "talks": 1.0,
+      "trust": {
+        "commons": 0.0,
+        "council": 0.0,
+        "merchants": 1
+      }
+    },
+    {
+      "scenario": "native-coin-funded-reputation-production",
+      "fixture_assisted": true,
+      "evidence": "native-coin-funded-reputation-production.json",
+      "rank": 3,
+      "legacy_points": 0,
+      "deliveries": 0.0,
+      "talks": 0.0,
+      "trust": {
+        "commons": 0.0,
+        "council": 0.0,
+        "merchants": 0.0
+      }
+    },
+    {
+      "scenario": "native-trade-scroll-does-not-dispatch",
+      "fixture_assisted": true,
+      "evidence": "native-trade-scroll-does-not-dispatch.json",
+      "rank": 3,
+      "legacy_points": 0,
+      "deliveries": 0.0,
+      "talks": 0.0,
+      "trust": {
+        "commons": 0.0,
+        "council": 0.0,
+        "merchants": 0.0
+      }
+    },
+    {
+      "scenario": "native-five-lot-relief-dispatched",
+      "fixture_assisted": true,
+      "evidence": "native-five-lot-relief-dispatched.json",
+      "rank": 3,
+      "legacy_points": 0,
+      "deliveries": 0.0,
+      "talks": 0.0,
+      "trust": {
+        "commons": 0.0,
+        "council": 0.0,
+        "merchants": 0.0
+      }
+    },
+    {
+      "scenario": "native-upgrade-purchase",
+      "fixture_assisted": true,
+      "evidence": "native-upgrade-purchase.json",
+      "rank": 3,
+      "legacy_points": 0,
+      "deliveries": 0.0,
+      "talks": 0.0,
+      "trust": {
+        "commons": 0.0,
+        "council": 0.0,
+        "merchants": 0.0
+      }
+    },
+    {
+      "scenario": "native-long-upgrade-scroll-no-purchase",
+      "fixture_assisted": true,
+      "evidence": "native-long-upgrade-scroll-no-purchase.json",
+      "rank": 3,
+      "legacy_points": 0,
+      "deliveries": 0.0,
+      "talks": 0.0,
+      "trust": {
+        "commons": 0.0,
+        "council": 0.0,
+        "merchants": 0.0
+      }
+    },
+    {
+      "scenario": "native-relief-plus-network-reaches-guild-gate",
+      "fixture_assisted": true,
+      "evidence": "native-relief-plus-network-reaches-guild-gate.json",
+      "rank": 3,
+      "legacy_points": 0,
+      "deliveries": 1.0,
+      "talks": 0.0,
+      "trust": {
+        "commons": 0.0,
+        "council": 0.0,
+        "merchants": 0.0
+      }
+    },
+    {
+      "scenario": "native-guildmaster-promotion",
+      "fixture_assisted": true,
+      "evidence": "native-guildmaster-promotion.json",
+      "rank": 4,
+      "legacy_points": 0,
+      "deliveries": 1.0,
+      "talks": 0.0,
+      "trust": {
+        "commons": 0.0,
+        "council": 0.0,
+        "merchants": 0.0
+      }
+    },
+    {
+      "scenario": "native-sustainable-influence-production",
+      "fixture_assisted": true,
+      "evidence": "native-sustainable-influence-production.json",
+      "rank": 4,
+      "legacy_points": 0,
+      "deliveries": 1.0,
+      "talks": 0.0,
+      "trust": {
+        "commons": 0.0,
+        "council": 0.0,
+        "merchants": 0.0
+      }
+    },
+    {
+      "scenario": "native-trade-clerk-purchased",
+      "fixture_assisted": true,
+      "evidence": "native-trade-clerk-purchased.json",
+      "rank": 4,
+      "legacy_points": 0,
+      "deliveries": 1.0,
+      "talks": 0.0,
+      "trust": {
+        "commons": 0.0,
+        "council": 0.0,
+        "merchants": 0.0
+      }
+    },
+    {
+      "scenario": "native-repeat-enabled-by-touch",
+      "fixture_assisted": true,
+      "evidence": "native-repeat-enabled-by-touch.json",
+      "rank": 4,
+      "legacy_points": 0,
+      "deliveries": 1.0,
+      "talks": 0.0,
+      "trust": {
+        "commons": 0.0,
+        "council": 0.0,
+        "merchants": 0.0
+      }
+    },
+    {
+      "scenario": "native-clerk-two-real-deliveries-and-reinvestment",
+      "fixture_assisted": true,
+      "evidence": "native-clerk-two-real-deliveries-and-reinvestment.json",
+      "rank": 4,
+      "legacy_points": 0,
+      "deliveries": 3.0,
+      "talks": 0.0,
+      "trust": {
+        "commons": 0.0,
+        "council": 0.0,
+        "merchants": 0.0
+      }
+    },
+    {
+      "scenario": "native-offline-paid-repeats-capped",
+      "fixture_assisted": true,
+      "evidence": "native-offline-paid-repeats-capped.json",
+      "rank": 4,
+      "legacy_points": 0,
+      "deliveries": 720.0,
+      "talks": 0.0,
+      "trust": {
+        "commons": 0.0,
+        "council": 0.0,
+        "merchants": 0.0
+      }
+    },
+    {
+      "scenario": "native-offline-resume-no-duplicate-cap",
+      "fixture_assisted": true,
+      "evidence": "native-offline-resume-no-duplicate-cap.json",
+      "rank": 4,
+      "legacy_points": 0,
+      "deliveries": 720.0,
+      "talks": 0.0,
+      "trust": {
+        "commons": 0.0,
+        "council": 0.0,
+        "merchants": 0.0
+      }
+    },
+    {
+      "scenario": "native-legacy-clears-activities-preserves-increased-prestige",
+      "fixture_assisted": true,
+      "evidence": "native-legacy-clears-activities-preserves-increased-prestige.json",
+      "rank": 0,
+      "legacy_points": 3,
+      "deliveries": 0,
+      "talks": 0,
+      "trust": {
+        "commons": 0,
+        "council": 0,
+        "merchants": 0
+      }
+    },
+    {
+      "scenario": "natural-progress-restored-after-fixtures",
+      "fixture_assisted": false,
+      "evidence": "natural-progress-restored-after-fixtures.json",
+      "rank": 2,
+      "legacy_points": 0,
+      "deliveries": 1.0,
+      "talks": 1.0,
+      "trust": {
+        "commons": 0.0,
+        "council": 0.0,
+        "merchants": 1.0
+      }
+    }
+  ],
+  "viewports": [
+    [
+      420,
+      820
+    ],
+    [
+      360,
+      800
+    ],
+    [
+      420,
+      1000
+    ]
+  ],
+  "observed_issue": "One cold-start input timeout before a focused window; recovered by clean restart. See startup-input-timeout.txt.",
+  "physical_phone_tested": false,
+  "early_candidate_boundary": "Migration, initial salvage/stall purchases and Vendor promotion were on the preceding v0.3 candidate. The final APK adds return-to-Empire after ascension and was installed during the negotiation. Final APK exercised remaining negotiation, restart, Guildmaster path, clerk, offline, Legacy and layouts."
+}

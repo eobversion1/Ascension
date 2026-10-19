@@ -1,0 +1,42 @@
+--------- beginning of main
+10-19 08:25:24.933 10332 10332 V Godot   : InitEngine with params: [--xr_mode_regular, --xr-mode, off, --fullscreen, --background_color, #000000]
+10-19 08:25:24.934 10332 10332 V Godot   : Initializing Godot plugin registry
+10-19 08:25:28.026 10332 10332 V Godot   : Godot native layer initialization completed: true
+10-19 08:25:31.223 10332 10332 V Godot   : Godot native layer setup completed
+10-19 08:25:31.257 10332 10332 V Godot   : OnInitRenderView: GodotFragment{e17302b} (7db1b8e0-ea68-4c1c-82c5-b1c8005b4d43 id=0x7f070033)
+10-19 08:25:32.208 10332 10332 D Godot   : Render view should be transparent: false
+10-19 08:25:32.211 10332 10332 D Godot   : usesVulkan(): false
+10-19 08:25:32.211 10332 10332 D Godot   : 			renderingDevice: opengl3 (ProjectSettings)
+10-19 08:25:32.211 10332 10332 D Godot   : 			renderer: gl_compatibility (ProjectSettings)
+10-19 08:25:33.154 10332 10332 V Godot   : OnStart: GodotFragment{e17302b} (7db1b8e0-ea68-4c1c-82c5-b1c8005b4d43 id=0x7f070033)
+10-19 08:25:33.331 10332 10332 V Godot   : OnResume: GodotFragment{e17302b} (7db1b8e0-ea68-4c1c-82c5-b1c8005b4d43 id=0x7f070033)
+10-19 08:25:35.744 10332 10359 I godot   : Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+10-19 08:25:41.575 10332 10359 E godot   : WARNING: Failed to load cached shader, recompiling.
+10-19 08:25:41.576 10332 10359 E godot   :    at: _load_from_cache (drivers/gles3/shader_gles3.cpp:612)
+10-19 08:25:46.737 10332 10359 I godot   : OpenGL API OpenGL ES 3.1 (OpenGL ES 3.1.0 (ANGLE 2.1.17841 git hash: 5fa2e61da947)) - Compatibility - Using Device: Google (Google Inc. (Google)) - Android Emulator OpenGL ES Translator (ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver-5.0.0))
+10-19 08:25:47.465 10332 10359 I godot   : 
+10-19 08:26:41.566 10332 10359 V Godot   : OnGodotSetupCompleted
+10-19 08:26:41.675 10332 10359 I godot   : ASCENSION 0.3: loading saved progress
+10-19 08:26:42.138 10332 10359 I godot   : ASCENSION 0.3: loaded rank 2
+10-19 08:26:46.327 10332 10359 I godot   : ASCENSION 0.3: interface ready
+10-19 08:26:46.366 10332 10359 V Godot   : OnGodotMainLoopStarted
+10-19 08:30:10.632 10332 10332 V Godot   : OnPause: GodotFragment{e17302b} (7db1b8e0-ea68-4c1c-82c5-b1c8005b4d43 id=0x7f070033)
+10-19 08:30:15.781 10332 10332 V Godot   : OnStop: GodotFragment{e17302b} (7db1b8e0-ea68-4c1c-82c5-b1c8005b4d43 id=0x7f070033)
+10-19 08:30:19.506 10332 10332 V Godot   : OnStart: GodotFragment{e17302b} (7db1b8e0-ea68-4c1c-82c5-b1c8005b4d43 id=0x7f070033)
+10-19 08:30:19.646 10332 10332 V Godot   : OnResume: GodotFragment{e17302b} (7db1b8e0-ea68-4c1c-82c5-b1c8005b4d43 id=0x7f070033)
+10-19 08:41:11.195 10332 10332 V Godot   : OnPause: GodotFragment{e17302b} (7db1b8e0-ea68-4c1c-82c5-b1c8005b4d43 id=0x7f070033)
+10-19 08:41:16.467 10332 10332 V Godot   : OnStop: GodotFragment{e17302b} (7db1b8e0-ea68-4c1c-82c5-b1c8005b4d43 id=0x7f070033)
+10-19 08:41:19.077 10332 10332 V Godot   : OnStart: GodotFragment{e17302b} (7db1b8e0-ea68-4c1c-82c5-b1c8005b4d43 id=0x7f070033)
+10-19 08:41:19.202 10332 10332 V Godot   : OnResume: GodotFragment{e17302b} (7db1b8e0-ea68-4c1c-82c5-b1c8005b4d43 id=0x7f070033)
+10-19 08:41:43.317 10332 10332 V Godot   : OnPause: GodotFragment{e17302b} (7db1b8e0-ea68-4c1c-82c5-b1c8005b4d43 id=0x7f070033)
+10-19 08:41:48.119 10332 10332 V Godot   : OnStop: GodotFragment{e17302b} (7db1b8e0-ea68-4c1c-82c5-b1c8005b4d43 id=0x7f070033)
+10-19 08:41:49.347 10332 10332 V Godot   : OnStart: GodotFragment{e17302b} (7db1b8e0-ea68-4c1c-82c5-b1c8005b4d43 id=0x7f070033)
+10-19 08:41:49.505 10332 10332 V Godot   : OnResume: GodotFragment{e17302b} (7db1b8e0-ea68-4c1c-82c5-b1c8005b4d43 id=0x7f070033)
+10-19 08:42:40.063 10332 10332 V Godot   : OnPause: GodotFragment{e17302b} (7db1b8e0-ea68-4c1c-82c5-b1c8005b4d43 id=0x7f070033)
+10-19 08:42:43.487 10332 10332 V Godot   : OnStop: GodotFragment{e17302b} (7db1b8e0-ea68-4c1c-82c5-b1c8005b4d43 id=0x7f070033)
+10-19 08:42:46.447 10332 10332 V Godot   : OnStart: GodotFragment{e17302b} (7db1b8e0-ea68-4c1c-82c5-b1c8005b4d43 id=0x7f070033)
+10-19 08:42:46.534 10332 10332 V Godot   : OnResume: GodotFragment{e17302b} (7db1b8e0-ea68-4c1c-82c5-b1c8005b4d43 id=0x7f070033)
+10-19 08:44:21.977 10332 10332 V Godot   : OnPause: GodotFragment{e17302b} (7db1b8e0-ea68-4c1c-82c5-b1c8005b4d43 id=0x7f070033)
+10-19 08:44:25.131 10332 10332 V Godot   : OnStop: GodotFragment{e17302b} (7db1b8e0-ea68-4c1c-82c5-b1c8005b4d43 id=0x7f070033)
+10-19 08:44:28.462 10332 10332 V Godot   : OnStart: GodotFragment{e17302b} (7db1b8e0-ea68-4c1c-82c5-b1c8005b4d43 id=0x7f070033)
+10-19 08:44:28.515 10332 10332 V Godot   : OnResume: GodotFragment{e17302b} (7db1b8e0-ea68-4c1c-82c5-b1c8005b4d43 id=0x7f070033)

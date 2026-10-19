@@ -1,15 +1,17 @@
-# ASCENSION 0.2 Android debug build
+# ASCENSION 0.3 Android debug build
 
-[Download the APK](https://github.com/eobversion1/Ascension/raw/refs/heads/downloads/ASCENSION-v0.2-debug.apk)
+[Download the APK](https://github.com/eobversion1/Ascension/raw/refs/heads/downloads/ASCENSION-v0.3-debug.apk) · [Download the editable Godot project](https://github.com/eobversion1/Ascension/raw/refs/heads/downloads/ASCENSION-v0.3-source.zip)
 
-Android 7.0/API 24 or newer; ARM64, ARMv7 and x86_64. Version 0.2.0 / code 2, package org.ascensiongame.chapterone. The same debug signing certificate allows an in-place update from v0.1. Open the downloaded APK and allow installation from your browser/file manager if Android asks. Preserve existing data before uninstalling.
+Android 7.0/API 24 or newer; ARM64, ARMv7 and x86_64. Version 0.3.0 / code 3, package `org.ascensiongame.chapterone`. Signed with the same debug certificate as v0.1/v0.2 for in-place updates. Open the APK and permit installation from your browser/file manager if Android asks. Install over the existing app to preserve progress; uninstalling removes app data.
 
-Promotion repaired, portrait interface redesigned, touch scrolling and bottom navigation improved, rank benefits/celebrations added. Existing rank requirements and save schema preserved.
+Six working trade contracts, three-round faction negotiations, relationship benefits and optional paid trade automation. The world changes from alley to harbour to citadel. Compact status, upgrade filters, clearer income sources and promotion guidance improve portrait play. Schema-2 migration preserves existing ranks/assets/Legacy and backs up the original save.
 
-147 engine assertions and 644 rendered UI checks pass. Native Android 15 emulator tests cover launch, manual work, purchases/passive income, upgrades, promotions, decisions, scrolling, offline rewards and Legacy. Advanced native checks use marked save fixtures; early promotion also passed from fresh play. Physical-phone performance and OEM lifecycle behavior remain untested.
+153 core assertions, 161 activity/migration assertions, 942 existing rendered UI checks and 297 activity UI checks pass. Four engine simulations reach all seven current ranks without free resources. Exact native Android 15 interaction evidence, fixture boundaries and the software-emulator startup timeout are documented in the validation report. Physical-phone performance remains untested.
 
-See [validation](v0.2/VALIDATION_V02.md), [changelog](v0.2/CHANGELOG_V02.md), [screenshots](v0.2/screenshots/) and [editable Godot project](https://github.com/eobversion1/Ascension/raw/refs/heads/downloads/ASCENSION-v0.2-source.zip).
+See [validation and limitations](v0.3/VALIDATION_V03.md), [changelog](v0.3/CHANGELOG_V03.md), [economy audit](v0.3/ECONOMY_V03.md), [Android screenshots](v0.3/screenshots/) and [architecture roadmap](v0.3/ARCHITECTURE_V03.md).
 
-APK SHA-256: `a62c87155134d4dd2575be717c832e59fee2907438773cdbb67b7f6ec5404037`
+APK SHA-256: `8f9ae9165fe16ed82e1a1069e12198232ba22a96aeb1ced08290107d314934e0`
 
-This is a debug test build. The playable chapter has seven ranks through Civic Leader and repeatable Legacy. Imperial/cosmic/divine eras remain future work.
+The current complete chapter ends at Civic Leader with repeatable Legacy. Imperial/cosmic/divine eras and audio remain future work. This is a debug test build, not a store release.
+
+Previous version: [v0.2 APK](https://github.com/eobversion1/Ascension/raw/refs/heads/downloads/ASCENSION-v0.2-debug.apk) and [v0.2 evidence](v0.2/VALIDATION_V02.md).

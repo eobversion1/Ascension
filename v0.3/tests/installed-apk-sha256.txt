@@ -1,0 +1,2 @@
+8f9ae9165fe16ed82e1a1069e12198232ba22a96aeb1ced08290107d314934e0  /data/app/~~sNSgrf5wGUNXRAfX32jIiA==/org.ascensiongame.chapterone-aSqb6X5wZtRnRp8FN5qYpg==/base.apk
+Matches the exported final APK.

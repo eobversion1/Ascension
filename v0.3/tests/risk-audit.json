@@ -1,0 +1,23 @@
+{
+  "coin_end": {
+    "e": 6,
+    "m": 1.28656
+  },
+  "coin_start": {
+    "e": 6,
+    "m": 1.0
+  },
+  "expected_net_per_trip": 600.0,
+  "failure_fraction": 0.278,
+  "losses": 139,
+  "risk_civic_reward_fraction": 0.5,
+  "risk_seconds": 96,
+  "safe_net_per_trip": 420.0,
+  "safe_seconds": 120,
+  "seed": 303,
+  "total_profit": {
+    "e": 5,
+    "m": 3.03239999999999
+  },
+  "trials": 500
+}
