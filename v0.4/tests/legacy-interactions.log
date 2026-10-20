@@ -1,0 +1,40 @@
+PASS before-legacy rank 4
+PASS loaded-legacy rank 6
+SCREENSHOT interaction-target
+TOUCH Sectors
+SCREENSHOT interaction-target
+SCREENSHOT interaction-target
+TOUCH Steward: OFF
+PASS 32-native-steward-enabled rank 6
+SCREENSHOT 32-native-estate-steward
+SCREENSHOT interaction-target
+TOUCH District
+SCREENSHOT 33-native-narrow-district
+SCREENSHOT interaction-target
+TOUCH Upgrades
+SCREENSHOT 34-native-narrow-long-upgrades
+SCREENSHOT interaction-target
+TOUCH Empire
+SCREENSHOT 35-native-tall-district
+PASS 36-native-steward-invested rank 6
+SCREENSHOT interaction-target
+TOUCH Reduced motion: OFF
+SCREENSHOT interaction-target
+Traceback (most recent call last):
+  File "/workspace/Ascension/tools/android_legacy_v04.py", line 43, in <module>
+    if __name__=='__main__':run()
+                            ^^^^^
+  File "/workspace/Ascension/tools/android_legacy_v04.py", line 30, in run
+    v.text_tap('Ascend',exact=True);time.sleep(2)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Ascension/tools/android_qa_v04.py", line 73, in text_tap
+    raise AssertionError('Rendered control not found: '+label)
+AssertionError: Rendered control not found: Ascend
+SCREENSHOT interaction-target
+Traceback (most recent call last):
+  File "<stdin>", line 6, in <module>
+  File "/workspace/Ascension/tools/android_qa_v04.py", line 73, in text_tap
+    raise AssertionError('Rendered control not found: '+label)
+AssertionError: Rendered control not found: BEGIN NEW LEGACY
+PASS 38-native-hybrid-legacy rank 0
+SCREENSHOT 38-native-survival-after-legacy

@@ -1,0 +1,55 @@
+{
+  "release": "0.4.0",
+  "date": "2026-10-20",
+  "apk_sha256": "426fdc197c8c2ac57b41eb0cd2e6d9459ff8051085ba1737c5fddc2cfd953198",
+  "device": "Android 15 API 35 x86_64 emulator, software ANGLE/SwiftShader, no KVM",
+  "automated_checks": {
+    "core": 165,
+    "activities_migration": 161,
+    "living_economy": 93,
+    "rendered_general": 1078,
+    "rendered_activities": 289,
+    "rendered_living_economy": 447,
+    "total": 2233
+  },
+  "earned_gameplay_verified": [
+    "v0.3 update and migration backup",
+    "Workshop purchases and Trader promotion (earlier v0.4 candidate)",
+    "sector investment, productive upgrade, paid five-lot relief delivery (earlier v0.4 candidate)",
+    "corrected faction link immediately visible after long scroll",
+    "three paid concession rounds and merchant trust 2",
+    "Open Passage ratification with actual economic effects",
+    "Rumour Network purchase and positive reputation production",
+    "Trading Post purchases and Guildmaster promotion",
+    "Campaign Office purchase and positive influence production",
+    "background/resume retains earned assets and privilege"
+  ],
+  "explicit_fixture_checks": [
+    "24-hour timestamp settles cap of 720 delegated deliveries; engine-oracle equality",
+    "second resume does not repeat offline cap",
+    "Estate Steward enabled by touch and invests at market boundary",
+    "360x800 and 420x1000 layouts",
+    "12 swipes reach final upgrade without accidental purchases",
+    "reduced motion preference persists",
+    "Legacy 2 to 3; six discoveries, seven achievements and highest rank retained",
+    "post-Legacy work and first Stall purchase followed by Street Scavenger promotion"
+  ],
+  "restored_earned_save": {
+    "rank": 4,
+    "legacy_points": 0,
+    "privileges": {
+      "open_passage": true
+    }
+  },
+  "limitations": [
+    "No physical Android hardware tested",
+    "Fixtures explicitly used for offline, late chapter and post-Legacy first promotion",
+    "OCR driver misses required retries; logs retain these failures",
+    "Seven playable ranks through Civic Leader; later eras roadmap only"
+  ],
+  "final_bounded_log_capture": {
+    "runtime_entries": 0,
+    "matching_anr_crash_entries": 0,
+    "limitation": "No entries returned; not proof of absence of all device faults."
+  }
+}

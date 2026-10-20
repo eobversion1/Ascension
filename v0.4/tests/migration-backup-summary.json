@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "app_version": "0.3.0",
+  "rank": 2,
+  "legacy": 0,
+  "generators": {
+    "campaign_office": 0,
+    "civic_hall": 0,
+    "rumour_network": 0,
+    "street_stall": 3,
+    "trading_post": 0,
+    "workshop": 0
+  },
+  "trust": {
+    "commons": 0.0,
+    "council": 0.0,
+    "merchants": 1.0
+  }
+}

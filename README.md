@@ -1,17 +1,21 @@
-# ASCENSION 0.3 Android debug build
+# ASCENSION v0.4 — The Living Economy
 
-[Download the APK](https://github.com/eobversion1/Ascension/raw/refs/heads/downloads/ASCENSION-v0.3-debug.apk) · [Download the editable Godot project](https://github.com/eobversion1/Ascension/raw/refs/heads/downloads/ASCENSION-v0.3-source.zip)
+[**Download the Android debug APK**](https://github.com/eobversion1/Ascension/raw/refs/heads/downloads/ASCENSION-v0.4-debug.apk)
 
-Android 7.0/API 24 or newer; ARM64, ARMv7 and x86_64. Version 0.3.0 / code 3, package `org.ascensiongame.chapterone`. Signed with the same debug certificate as v0.1/v0.2 for in-place updates. Open the APK and permit installation from your browser/file manager if Android asks. Install over the existing app to preserve progress; uninstalling removes app data.
+[Download the complete Godot source ZIP](https://github.com/eobversion1/Ascension/raw/refs/heads/downloads/ASCENSION-v0.4-source.zip)
 
-Six working trade contracts, three-round faction negotiations, relationship benefits and optional paid trade automation. The world changes from alley to harbour to citadel. Compact status, upgrade filters, clearer income sources and promotion guidance improve portrait play. Schema-2 migration preserves existing ranks/assets/Legacy and backs up the original save.
+Android 7/API 24 or newer. ARM64, ARMv7 and x86_64. Same package and debug certificate as earlier builds; install as an update to retain progression. Do not uninstall first if you want to keep the existing save. No Android permissions, accounts or network services.
 
-153 core assertions, 161 activity/migration assertions, 942 existing rendered UI checks and 297 activity UI checks pass. Four engine simulations reach all seven current ranks without free resources. Exact native Android 15 interaction evidence, fixture boundaries and the software-emulator startup timeout are documented in the validation report. Physical-phone performance remains untested.
+Three connected economic sectors, scalable contracts, real political privileges, reserved automation, permanent discoveries and an evolving illustrated district. The chapter remains seven complete ranks through Civic Leader, followed by Legacy.
 
-See [validation and limitations](v0.3/VALIDATION_V03.md), [changelog](v0.3/CHANGELOG_V03.md), [economy audit](v0.3/ECONOMY_V03.md), [Android screenshots](v0.3/screenshots/) and [architecture roadmap](v0.3/ARCHITECTURE_V03.md).
+- [Validation and known limitations](v0.4/VALIDATION_V04.md)
+- [Changelog](v0.4/CHANGELOG_V04.md)
+- [Economic interactions and strategy simulations](v0.4/ECONOMY_V04.md)
+- [Architecture and future eras](v0.4/ARCHITECTURE_V04.md)
+- [Actual Android screenshots](v0.4/screenshots)
+- [Test evidence](v0.4/tests)
+- [SHA-256 checksums](SHA256SUMS)
 
-APK SHA-256: `8f9ae9165fe16ed82e1a1069e12198232ba22a96aeb1ced08290107d314934e0`
+Automated engine/rendered tests and native Android emulator interaction are reported separately. No physical phone has been tested. Future sovereignty, cosmic and divine eras are roadmap items, not playable placeholder ranks.
 
-The current complete chapter ends at Civic Leader with repeatable Legacy. Imperial/cosmic/divine eras and audio remain future work. This is a debug test build, not a store release.
-
-Previous version: [v0.2 APK](https://github.com/eobversion1/Ascension/raw/refs/heads/downloads/ASCENSION-v0.2-debug.apk) and [v0.2 evidence](v0.2/VALIDATION_V02.md).
+Earlier v0.3 and v0.2 artifacts and reports remain on this branch. `ASCENSION-debug.apk` is an alias of the latest versioned APK.

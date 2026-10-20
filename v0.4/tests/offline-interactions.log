@@ -1,0 +1,7 @@
+PASS before-offline rank 4
+PASS loaded-offline rank 4
+PASS offline-engine-oracle-matched rank 4
+SCREENSHOT interaction-target
+TOUCH Trade desk
+SCREENSHOT 31-native-offline-automation
+PASS offline-resume-no-duplicate rank 4

@@ -1,0 +1,6 @@
+SCREENSHOT interaction-target
+TOUCH Invest
+PASS 39-native-first-stall rank 0
+PASS 39-native-first-promotion rank 1
+SCREENSHOT 39-native-first-promotion
+SCREENSHOT continue-target

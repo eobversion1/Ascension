@@ -1,0 +1,50 @@
+SCREENSHOT interaction-target
+TOUCH Build merchants relations
+SCREENSHOT 23-native-faction-link-corrected
+SCREENSHOT interaction-target
+TOUCH Open negotiations
+SCREENSHOT interaction-target
+TOUCH Fund a concession
+SCREENSHOT interaction-target
+TOUCH Fund a concession
+SCREENSHOT interaction-target
+TOUCH Fund a concession
+PASS 24-native-merchant-accord rank 3
+SCREENSHOT interaction-target
+TOUCH Ratify agreement
+PASS 25-native-economic-privilege rank 3
+SCREENSHOT 25-native-ratified-rights
+SCREENSHOT interaction-target
+TOUCH Reputation earned
+SCREENSHOT interaction-target
+TOUCH Invest
+PASS 26-native-sustainable-reputation rank 3
+SCREENSHOT interaction-target
+SCREENSHOT interaction-target
+Traceback (most recent call last):
+  File "/workspace/Ascension/tools/android_earned_v04.py", line 53, in <module>
+    if __name__=='__main__':run()
+                            ^^^^^
+  File "/workspace/Ascension/tools/android_earned_v04.py", line 35, in run
+    q.tap(370,783);v.text_tap('Trading post owned',swipes=1)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Ascension/tools/android_qa_v04.py", line 69, in text_tap
+    raise AssertionError('Rendered control not found: '+label)
+AssertionError: Rendered control not found: Trading post owned
+SCREENSHOT interaction-target
+TOUCH Trading Post owned
+SCREENSHOT interaction-target
+TOUCH Invest
+SCREENSHOT interaction-target
+TOUCH Invest
+PASS 27-native-guildmaster rank 4
+SCREENSHOT 27-native-guildmaster-ascension
+SCREENSHOT continue-target
+SCREENSHOT 28-native-guild-district
+SCREENSHOT interaction-target
+TOUCH Influence earned
+SCREENSHOT interaction-target
+TOUCH Invest
+PASS 29-native-sustainable-influence rank 4
+PASS earned-progress-before-fixtures rank 4
+PASS 30-native-save-resume rank 4
